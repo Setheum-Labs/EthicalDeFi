@@ -43,4 +43,4 @@ There are two (2) sub-protocols in ZIMS, these two differ in their underlying st
 - Astar ASTR
 
 ## LICENSE
-The primary license for Slixon is the Business Source License 1.1 (BUSL-1.1), see [LICENSE](https://github.com/Setheum-Labs/Slixon/blob/main/LICENSE.md).
+The primary license for Zims is the Business Source License 1.1 (BUSL-1.1), see [LICENSE](https://github.com/Setheum-Labs/Zims/blob/main/LICENSE.md).
