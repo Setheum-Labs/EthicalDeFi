@@ -1,3 +1,5 @@
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
+
 # ZIMS Protocol - Powering Ethical DeFi Solutions.
 
 ⚠️WIP - Work In Progress, Not Production Ready!
