@@ -8,6 +8,7 @@ members = [
 	"emergency-shutdown",
 	"loans",
 	"setmint-core",
+	"serp",
 ]
 resolver = "2"
 
