@@ -4,60 +4,33 @@
 
 ⚠️WIP - Work In Progress, Not Production Ready!
 
-Setheum's ZIMS (Zero-Interest Multicurrency System). ZIMS is a CDP Stablecoin protocol in Setheum built for the Zero-Interest stablecoin market. Inspired by MakerDAO Protocol, the CDP (Collateralized Debt Position) protocol on Ethereum, the Setheum CDP protocol ZIMS has zero interest rates, zero stability fees, and is fully halal and over-collateralized as well as multicollateral. This lets the Ethical DEfi and Islamic Finance world to also participate in the industry and take part in trading and yield making strategies that are within their dome of principles, beliefs, and customs.
+Setheum's ECDP (Ethical Collateralied Debt Position) Protocol is a CDP Stablecoin protocol in Setheum built for the Zero-Interest stablecoin market. Inspired by MakerDAO Protocol, the Setheum ECDP protocol has zero interest rates, zero stability fees, and is fully halal and over-collateralized as well as multicollateralized. This lets the Ethical DEfi and Islamic Finance world to also participate in the industry and take part in trading and yield making strategies that are within their principles, beliefs, and customs.
 
 ### Currencies 'n Sub-Protocols
 
-There are two (2) sub-protocols in ZIMS, these two differ in their underlying stability mechanisms as well as collateralization and redemption mechanisms, ther are:
- * Unbiased USD - USSD: The USSD is pegged 1:1 to the USD(United States Dollar) and is multi-collateral. The USSD is over-collateralized. The Unbiased USD is inspired by MakerDAO.
- * Setter - SETR: The SETR is unpegged, meaning that it is not pegged to any particular fiat currency, but has a target price at which it is relatively stable-ish (more like the concept of the USD itself, but with the gold backing and unpegged). There is also a redemption rate which changes to relatively stabilize the currency. The SETR is like an stablecoin index that tracks the market movement and volatility of it's mirrored asset and blends it to a smoother less volatile, slower moving price level that keeps the SETR relatively stable around its target price. The SETR is multi-collateral and over-collateralized. The SETR's mirrored asset(which we call "scale index") is a basket of cryptocurrencies (currently SET, BTC and ETH, could be updated to add or remove currencies from the scale index through governance), it tracks the average of the scale index with a customizable index ratio(currently equal at 1:1:1 could be updated through governance). These parameters are updatable by the protocol governance in order to properly consolidate and strengthen the scale index of the currency, thereby increasing stability. The Setter is inspired by MakerDAO and RAI Stablecoin.
+There are two (2) sub-protocols in Khalifa ECDP, these two differ in their underlying stability mechanisms as well as collateralization and redemption mechanisms, ther are:
 
-## Compatible Chains/Tokens - Cross-Chain:
-- Bitcoin BTC
-- Ethereum ETH
-- Polygon MATIC
-- Binance Smart Chain BNB
-- Avalanche AVAX
-- Polkadot DOT
-- Kusama KSM
-- Solana SOL
-- Moonbeam GLMR
-- Astar ASTR
-- other Substrate and EVM chains, et al.
+####  Pegged Stablecoin Protocol
 
-## Possible Collaterals
-1. SET
-2. SIOT
-3. SLIX
-4. CIO
-5. LAIR
-6. ZIMS
-7. WBTC
-8. WBNB
-9. WETH
-10. MATIC
-11. AVAX
-12. DOT
-13. KSM
-14. SOL
-15. GLMR
-16. ASTR
-17. LA_SET
-18. LA_SIOT
-19. LA_SLIX
-20. LA_CIO
-21. LA_LAIR
-22. LA_ZIMS
-23. LA_WBTC
-24. LA_WBNB
-25. LA_WETH
-26. LA_MATIC
-27. LA_AVAX
-28. LA_DOT
-29. LA_KSM
-30. LA_SOL
-31. LA_GLMR
-32. LA_ASTR
+Pegged to a certain fiat currency such as USD, and relatively stable. The protocol is inspired by MakerDAO.
+ 
+Curreencies:
+- `SlickUSD - USSD`: Pegged 1:1 to the USD.
+Confirmed Collaterals are `SEE, KHA, BTC, ETH, BNB, DOT, KSM, SETR, GRA`;
+
+####  Unpegged Stablecoin Protocol
+
+Not pegged to any fiat currency, and relatively stable-ish.The protocol is inspired by RAI which was inspired by MakerDAO.
+
+It is not pegged to any particular fiat currency, but has a target price at which it is relatively stable-ish (more like the concept of the USD itself, but with the gold standard). There is also a redemption rate which changes to relatively stabilize the currency. The stablecoin is like an stablecoin index that tracks the market movement and volatility of it's mirrored asset and blends it to a smoother less volatile, slower moving price level that keeps the stablecoins relatively stable around its target price.
+
+The stablecoins are multi-collateralized and over-collateralized. The currency's mirrored asset(which we call `scale index` or `SI`) is a basket of cryptocurrencies (eg. `SEE`, `BTC` and `KHA`, could be updated to add or remove currencies from the `SI` through governance), it tracks the average of the `SI` with a customizable index ratio(currently equal at `50:25:25` could be updated through governance). These parameters are updatable by the protocol governance in order to properly consolidate and strengthen the `SI` of the currency, thereby increasing stability.
+
+Curreencies:
+- `Setter - SETR`: The `SI` of `50:30:20` on `SEE:KHA:BTC`;
+- `Golden Ratio - GRA`: The `SI` of `20:20:20:20:20` on `SEE:KHA:BTC:ETH:BNB`;
+
+ One implementation of the protocol is the `Setter - SETR` and the `Golden Ratio - GRA`: The `SETR` and `GRA` are `unpegged`,  The Setter is inspired by MakerDAO and RAI Stablecoin.
 
 ## LICENSE
-The primary license for Zims is the Business Source License 1.1 (BUSL-1.1), see [LICENSE](https://github.com/Setheum-Labs/Zims/blob/main/LICENSE.md).
+The primary license for ECDP is the Business Source License 1.1 (BUSL-1.1), see [LICENSE](https://github.com/Khalifa-Blockchain/ECDP/blob/main/LICENSE.md).
