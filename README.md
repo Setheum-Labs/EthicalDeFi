@@ -27,7 +27,7 @@ It is not pegged to any particular fiat currency, but has a target price at whic
 The stablecoins are multi-collateralized and over-collateralized. The currency's mirrored asset(which we call `scale index` or `SI`) is a basket of cryptocurrencies (eg. `SEE`, `BTC` and `KHA`, could be updated to add or remove currencies from the `SI` through governance), it tracks the average of the `SI` with a customizable index ratio(currently equal at `50:25:25` could be updated through governance). These parameters are updatable by the protocol governance in order to properly consolidate and strengthen the `SI` of the currency, thereby increasing stability.
 
 Curreencies:
-- `Setter - SETR`: The `SI` of `50:30:20` on `SEE:KHA:BTC`;
+- `Setter - SETR`: The `SI` of `50:25:25` on `SEE:KHA:BTC`;
 - `Golden Ratio - GRA`: The `SI` of `20:20:20:20:20` on `SEE:KHA:BTC:ETH:BNB`;
 
  One implementation of the protocol is the `Setter - SETR` and the `Golden Ratio - GRA`: The `SETR` and `GRA` are `unpegged`,  The Setter is inspired by MakerDAO and RAI Stablecoin.
