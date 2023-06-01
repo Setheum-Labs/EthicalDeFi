@@ -25,39 +25,5 @@ There are two (2) sub-protocols in ZIMS, these two differ in their underlying st
 - Astar ASTR
 - other Substrate and EVM chains, et al.
 
-## Possible Collaterals
-1. SET
-2. SIOT
-3. SLIX
-4. CIO
-5. LAIR
-6. ZIMS
-7. WBTC
-8. WBNB
-9. WETH
-10. MATIC
-11. AVAX
-12. DOT
-13. KSM
-14. SOL
-15. GLMR
-16. ASTR
-17. LA_SET
-18. LA_SIOT
-19. LA_SLIX
-20. LA_CIO
-21. LA_LAIR
-22. LA_ZIMS
-23. LA_WBTC
-24. LA_WBNB
-25. LA_WETH
-26. LA_MATIC
-27. LA_AVAX
-28. LA_DOT
-29. LA_KSM
-30. LA_SOL
-31. LA_GLMR
-32. LA_ASTR
-
 ## LICENSE
 The primary license for Zims is the Business Source License 1.1 (BUSL-1.1), see [LICENSE](https://github.com/Setheum-Labs/Zims/blob/main/LICENSE.md).
