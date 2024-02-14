@@ -1,6 +1,6 @@
 [package]
 name = "serp-setmint"
-version = "1.0.0"
+version = "0.9.0"
 authors = ["Setheum Labs"]
 edition = "2018"
 
@@ -14,8 +14,8 @@ sp-std = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v
 
 cdp-engine = { package = "cdp-engine", path = "../cdp-engine", default-features = false }
 loans = { package = "module-loans", path = "../loans", default-features = false }
-support = { package = "module-support", path = "../../../support", default-features = false }
-primitives = { package = "setheum-primitives", path = "../../../../primitives", default-features = false }
+support = { package = "module-support", path = "../../modules/support", default-features = false }
+primitives = { package = "setheum-primitives", path = "../../primitives", default-features = false }
 
 [dev-dependencies]
 sp-io = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.10" }
