@@ -1,6 +1,6 @@
 بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
 
-# EthicalDeFi - Powering DeFi On Ethical Wheels
+# EthicalDeFi - Powering DeFi On Ethical Wheels (Moved into [The Setheum Monorepo](https://github.com/Setheum-Labs/Setheum)).
 
 ⚠️WIP - Work In Progress, Not Production Ready!
 
