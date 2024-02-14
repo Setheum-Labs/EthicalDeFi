@@ -1,5 +1,6 @@
-# EthicalDeFi
-Ethical DeFi: Powering DeFi On Ethical Wheels
+بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
+
+# EthicalDeFi - Powering DeFi On Ethical Wheels
 
 ⚠️WIP - Work In Progress, Not Production Ready!
 
@@ -11,5 +12,8 @@ Ethical DeFi: Powering DeFi On Ethical Wheels
 7. `liquid-edf`: Allow users to issue ECDP Stablecoins with `EDF(EthicalDeFi)` collateral and get `LEDF(Liquid EthicalDeFi)` liquid collateral. Only works for `ecdp/pegged -> slickUSD(USSD): Pegged Stablecoin`.
 3. `liquid-see`: Liquid Staking `SEE(Setheum)` for staking rewards and `LSEE(Liquid SEE)`.
 
-## LICENSE
-The primary license for EthicalDeFi is the Business Source License 1.1 (BUSL-1.1), see [LICENSE](https://github.com/Setheum-Labs/Zims/blob/main/LICENSE.md).
+## 9.0. License
+
+The code in this repository is licensed under the [GNU GPL Version 3 License](./LICENSE.md)
+
+Unless you explicitly state otherwise, any contribution that you submit to this repo shall be licensed as above (as defined in the [GNU GPL-3 Version 3.0 or later WITH Classpath-exception-2.0](./LICENSE.md), without any additional terms or conditions.

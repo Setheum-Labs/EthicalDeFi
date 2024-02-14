@@ -1,7 +1,7 @@
 
 // بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
 //
-// This file is part of Zims.
+// This file is part of Ethical DeFi.
 //
 // Copyright (C) 2019-Present Setheum Labs.
 // SPDX-License-Identifier: BUSL-1.1 (Business Source License 1.1)
